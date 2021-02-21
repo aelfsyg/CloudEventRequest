@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Riccardo Di Nuzzo</Authors>
+    <Company>RDN Software</Company>
+    <PackageId>CloudEventRequest</PackageId>
+    <Product>CloudEventRequest</Product>
+    <Description>simple type to represent a message based on the CloudEvent standard - cloudevent.io</Description>
+    <PackageLicenseFile>LICENSE</PackageLicenseFile>
+    <PackageProjectUrl>https://github.com/riccardone/CloudEventRequest</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/riccardone/CloudEventRequest</RepositoryUrl>
+    <RepositoryType>github</RepositoryType>
+    <PackageTags>CloudEvent</PackageTags>
+    <PackageReleaseNotes>start</PackageReleaseNotes>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\..\..\..\code\CloudEventRequest\LICENSE">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
